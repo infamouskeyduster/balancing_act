@@ -1,0 +1,289 @@
+/* * {
+  border: 1px solid red;
+} */
+/* * {
+  box-sizing: border-box;
+} */
+html,
+body {
+  background-color: #F5F5F5;
+  font-family: Biryani;
+  font-weight: 400;
+  width: 100%;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+/*THIS IS MY NAV BAR STYLING*/
+nav {
+  min-width: 110px;
+  max-width: 110px;
+  position: fixed;
+  margin-top: -2%;
+  height: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+img,
+.dashboard_logo,
+.transactions_logo,
+.profile_logo {
+  height: 50px;
+}
+
+img,
+.elephant_logo{
+  height: 85px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.dashboard_logo {
+margin-left: 25%;
+margin-top: 200%;
+}
+.dashboard_logo:hover {
+  transition: .2s;
+  border-left: 3px solid #1CA3BA;
+  padding-left: 16%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.transactions_logo {
+  margin-left: 25%;
+  margin-top: 0%;
+}
+.transactions_logo:hover {
+  transition: .2s;
+  border-left: 3px solid #1CA3BA;
+  padding-left: 16%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.profile_logo {
+  margin-left: 25%;
+  margin-top: 0%;
+}
+.profile_logo:hover {
+  transition: .2s;
+  border-left: 3px solid #1CA3BA;
+  padding-left: 16%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+/*END NAV BAR STYLING*/
+h1 {
+  margin-left: 9%;
+  margin-top: 2%;
+}
+/*WELCOME BANNER STYLING*/
+.welcome-banner h2 {
+  font-size: 19px;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+.welcome-banner img {
+  height: 15px;
+  margin-left: 95%;
+  margin-top: 2%;
+}
+.welcome-banner {
+  margin-top: 1%;
+  margin-left: 9%;
+  background: rgb(148,210,220);
+  background: linear-gradient(90deg, rgba(148,210,220,1) 48%, rgba(227,243,245,1) 100%);
+  height: 100px;
+  width: 45%;
+  border-radius: 7px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  position:relative;
+}
+/*END WELCOME BANNER STYLING*/
+
+/*Accounts table begins here*/
+.accounts-item-1,
+.accounts-item-2,
+.accounts-item-3,
+.accounts-item-4 {
+  width: 650px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+.accounts-list {
+  display: block;
+  float: left;
+  margin-left: 9%;
+  margin-top: 0px;
+}
+.accounts-list h2 {
+  display: inline;
+  margin-left: 0%;
+}
+.accounts-list img {
+  display: inline;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 35px;
+}
+.accounts-list p {
+  text-align: right;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+.manage_accounts_button {
+  padding: 0px;
+  display: inline-block;
+  font-family: Biryani;
+  font-size: 12px;
+  width: 170px;
+  height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #1CA3BA;
+  border-radius: 15px;
+  margin-left: 65%;
+  transform: translate(57px, -10px);
+}
+.tiles {
+  display: inline-block;
+  width: 650px;
+  height: 110px;
+  margin-top: 2%;
+  margin-left: 9%;
+}
+
+.tile_1 {
+  display: inline;
+  float: left;
+  background-color: #FFFFFF;
+  width: 200px;
+  text-align: left;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+.tile_1,
+h3 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.tile_1,
+.tile_2,
+.tile_3,
+p {
+  font-size: 19px;
+  /* padding-left: 30px; */
+}
+
+.tile_2,
+.tile_3 {
+  display: inline;
+  float: left;
+  margin-left: 3.8%;
+  background-color: #FFFFFF;
+  width: 200px;
+  text-align: left;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+.tile_2,
+.tile_3,
+h3 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/*.accounts-table {
+  position: absolute;
+  top: 49%;
+  left: 6%;
+  width: 67%;
+  background-color: magenta;
+  border-radius: 10px;
+
+}
+.accounts-table th {
+  margin-bottom: 35px;
+  border-radius: 7px;
+  font-size: 15px;
+  height: 50px;
+  width: 100px;
+}*/
+
+.icon-column,
+th {
+  width: 40px;
+}
+/*Accounts table ends here*/
+
+/*THIS IS MY DATA TABLE STYLING*/
+.table_1{
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  padding: 30px 5px 30px 35px;
+  width: 34%;
+  float: right;
+  border-radius: 2px;
+  display: inline-block;
+  float: right;
+  margin-right: 4%;
+  margin-top: -17%;
+  position: relative;
+}
+
+.table_1,
+caption {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 3%;
+  font-style: bold;
+}
+
+.new_transaction_button {
+  padding: -0px;
+  font-family: Biryani;
+  font-size: 12px;
+  width: 30%;
+  height: 6%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #1CA3BA;
+  border-radius: 15px;
+  position:absolute;
+  left: 65%;
+}
+
+table,
+td {
+  font-size: 13px;
+}
+table,
+th {
+  border-bottom: 1px solid #FAFAFA;
+  border-collapse: collapse;
+}
+table,
+td{
+  border-bottom: 1px solid #CCCCCC;
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+}
+.date {
+  width: 130px;
+}
+.payee {
+  width: 140px;
+}
+.inflow {
+  width: 120px;
+}
+/*END OF MY DATA TABLE STYLING*/
