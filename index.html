@@ -1,8 +1,165 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
   </head>
   <body>
-    <p>This is content that I am adding to my page. This is only a test</p>
+    <nav>
+      <img src="assets/elephant.svg" class="elephant_logo">
+      <img src="assets/dashboard.svg" class="dashboard_logo">
+      <img src="assets/transactions.svg" class="transactions_logo">
+      <img src="assets/profile.svg" class="profile_logo">
+    </nav>
+    <h1>Balancing Act</h1>
+    <!--welcome banner-->
+    <section class="welcome-banner">
+      <h2>Welcome, Oscar!</h2>
+      <img src="assets/close.svg" alt="close_x_icon">
+    </section>
+    <!--end welcome banner-->
+    <!-- income expenses credit score tiles here-->
+    <section class="tiles_parent">
+      <div class="tiles">
+        <div class="tile_1">
+          <h3>income</h3>
+          <p>$2,119.12</p>
+        </div>
+        <div class="tile_2">
+          <h3>expenses</h3>
+          <p>$420.54</p>
+        </div>
+        <div class="tile_3">
+          <h3>credit score</h3>
+          <p>673</p>
+        </div>
+      </div>
+    </section>
+    <!-- END income expenses credit score tiles here-->
+    <!--Accounts List begins here-->
+    <section class="accounts-list">
+      <h2>Accounts</h2>
+      <button class="manage_accounts_button">manage accounts</button>
+          <div class="accounts-item-1">
+            <img src="assets/checking.svg" alt="checking-icon">
+            <p>Wells Fargo</p>
+            <p>Checking</p>
+          </div>
+          <div class="accounts-item-2">
+            <img src="assets/savings.svg" alt="piggy-bank-icon">
+            <p>Wells Fargo</p>
+            <p>Savings</p>
+          </div>
+          <div class="accounts-item-3">
+            <img src="assets/credit-card.svg" alt="credit-card-icon">
+            <p>Amazon Credit</p>
+            <p>Credit Card</p>
+          </div>
+          <div class="accounts-item-4">
+            <img src="assets/credit-card.svg" alt="credit-card-icon">
+            <p>Southwest Credit</p>
+            <p>Credit Card</p>
+          </div>
+  </section>
+    <!--<div class="accounts-table">
+      <table class="accounts-table-1">
+        <caption>Accounts</caption>
+        <tr>
+          <th class="icon-column">TEST</th>
+          <th>Wells Fargo</th>
+          <th>Checking</th>
+        </tr>
+      </table>
+      <table class="accounts-table-2">
+        <tr>
+          <th class="icon-column">TEST</th>
+          <th>Wells Fargo</th>
+          <th>Savings</th>
+        </tr>
+      </table>
+      <table class="accounts-table-2">
+        <tr>
+          <th class="icon-column">TEST</th>
+          <th>Amazon Credit</th>
+          <th>Credit Card</th>
+        </tr>
+      <table class="accounts-table-2">
+        <tr>
+          <th class="icon-column">TEST</th>
+          <th>Southwest Credit</th>
+          <th>Credit Card</th>
+        </tr>
+    </table>
+  </div>-->
+    <!--Accounts Table ends here-->
+    <!--Data Table Beigns Here!-->
+    <section class="table_1">
+      <table>
+        <caption>Recent Transactions</caption>
+        <!--<h2>Recent Transactions</h2>-->
+        <button class="new_transaction_button">new transaction</button>
+        <tr>
+          <th class="date">Date</th>
+          <th class="payee">Payee</th>
+          <th class="inflow">Inflow</th>
+          <th class="outflow">Outflow</th>
+        </tr>
+        <tr>
+          <td>Oct 25, 2019</td>
+          <td>Target</td>
+          <td>-</td>
+          <td>$82.35</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 22, 2019</td>
+          <td>Paycheck</td>
+          <td>$1,319.12</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Oct 21, 2019</td>
+          <td>Trader Joe's</td>
+          <td>-</td>
+          <td>$54.92</td>
+        </tr>
+        <tr>
+          <td>Oct 20, 2019</td>
+          <td>Shell</td>
+          <td>-</td>
+          <td>$46.23</td>
+        </tr>
+        <tr>
+          <td>Oct 19, 2019</td>
+          <td>Rent</td>
+          <td>$800.00</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Oct 19, 2019</td>
+          <td>Happa Sushi</td>
+          <td>-</td>
+          <td>$13.97</td>
+        </tr>
+        <tr>
+          <td>Oct 18, 2019</td>
+          <td>Pig Train</td>
+          <td>-</td>
+          <td>$4.83</td>
+        </tr>
+        <tr>
+          <td>Oct 18, 2019</td>
+          <td>RTD</td>
+          <td>-</td>
+          <td>$6.00</td>
+        </tr>
+      </table>
+    </section>
+    <!--Data Table ENDS Here!-->
   </body>
 </html>
