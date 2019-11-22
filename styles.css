@@ -1,9 +1,6 @@
 /* * {
   border: 1px solid red;
 } */
-/* * {
-  box-sizing: border-box;
-} */
 html,
 body {
   background-color: #F5F5F5;
@@ -24,7 +21,7 @@ nav {
   background-color: #FFFFFF;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
-img,
+ img,
 .dashboard_logo,
 .transactions_logo,
 .profile_logo {
@@ -74,10 +71,22 @@ margin-top: 200%;
 }
 /*END NAV BAR STYLING*/
 h1 {
-  margin-left: 9%;
+  margin-left: 11%;
   margin-top: 2%;
+  display: block;
 }
 /*WELCOME BANNER STYLING*/
+.welcome-banner {
+  margin-top: 1%;
+  margin-left: 11%;
+  background: rgb(148,210,220);
+  background: linear-gradient(90deg, rgba(148,210,220,1) 48%, rgba(227,243,245,1) 100%);
+  height: 100px;
+  width: 45%;
+  border-radius: 7px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  position: relative;
+}
 .welcome-banner h2 {
   font-size: 19px;
   display: inline-block;
@@ -89,17 +98,6 @@ h1 {
   height: 15px;
   margin-left: 95%;
   margin-top: 2%;
-}
-.welcome-banner {
-  margin-top: 1%;
-  margin-left: 9%;
-  background: rgb(148,210,220);
-  background: linear-gradient(90deg, rgba(148,210,220,1) 48%, rgba(227,243,245,1) 100%);
-  height: 100px;
-  width: 45%;
-  border-radius: 7px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.05);
-  position:relative;
 }
 /*END WELCOME BANNER STYLING*/
 
@@ -116,14 +114,13 @@ h1 {
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 .accounts-list {
-  display: block;
-  float: left;
-  margin-left: 9%;
+  margin-left: 11%;
   margin-top: 0px;
 }
 .accounts-list h2 {
   display: inline;
   margin-left: 0%;
+  margin-bottom: 10%;
 }
 .accounts-list img {
   display: inline;
@@ -135,11 +132,21 @@ h1 {
   text-align: right;
   display: inline-block;
   margin-top: 0px;
-  margin-left: 150px;
-  margin-bottom: 0px;
+  margin-left: 18%;
+  bottom: 12%;
+  position: relative;
+}
+.checking{
+  padding-left: 9%;
+}
+.savings{
+  padding-left: 9%;
+}
+.credit-card{
+  padding-left: 4%;
 }
 .manage_accounts_button {
-  padding: 0px;
+  padding-top: 5px;
   display: inline-block;
   font-family: Biryani;
   font-size: 12px;
@@ -149,15 +156,18 @@ h1 {
   color: #FFFFFF;
   background-color: #1CA3BA;
   border-radius: 15px;
-  margin-left: 65%;
-  transform: translate(57px, -10px);
+  margin-left: 28.5%;
+  margin-bottom: 1%;
 }
 .tiles {
   display: inline-block;
-  width: 650px;
+  width: 46%;
   height: 110px;
   margin-top: 2%;
-  margin-left: 9%;
+  margin-left: 11%;
+}
+.tile-text {
+  margin-left: 11%;
 }
 
 .tile_1 {
@@ -179,15 +189,14 @@ h3 {
 .tile_2,
 .tile_3,
 p {
-  font-size: 19px;
-  /* padding-left: 30px; */
+  font-size: 21px;
 }
 
 .tile_2,
 .tile_3 {
   display: inline;
   float: left;
-  margin-left: 3.8%;
+  margin-left: 3.6%;
   background-color: #FFFFFF;
   width: 200px;
   text-align: left;
@@ -230,13 +239,12 @@ th {
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
   padding: 30px 5px 30px 35px;
   width: 34%;
-  float: right;
   border-radius: 2px;
   display: inline-block;
-  float: right;
-  margin-right: 4%;
-  margin-top: -17%;
-  position: relative;
+  margin-left: 60%;
+  bottom: 619px;
+  position: sticky;
+  margin-top: 78px;
 }
 
 .table_1,
@@ -248,7 +256,7 @@ caption {
 }
 
 .new_transaction_button {
-  padding: -0px;
+  padding-top: 5px;
   font-family: Biryani;
   font-size: 12px;
   width: 30%;
