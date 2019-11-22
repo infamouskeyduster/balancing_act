@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles_v3.css">
     <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -15,26 +15,24 @@
     <!--welcome banner-->
     <section class="welcome-banner">
       <h2>Welcome, Oscar!</h2>
-      <img src="assets/close.svg" alt="close_x_icon">
+      <img src="assets/close.svg" class="close_x_icon" alt="close_x_icon">
     </section>
     <!--end welcome banner-->
     <!-- income expenses credit score tiles here-->
-    <section class="tiles_parent">
-      <div class="tiles">
+      <section class="tiles">
         <div class="tile_1">
-          <h3>income</h3>
-          <p>$2,119.12</p>
+          <h3 class="tile-text">income</h3>
+          <p class="tile-text">$2,119.12</p>
         </div>
         <div class="tile_2">
-          <h3>expenses</h3>
-          <p>$420.54</p>
+          <h3 class="tile-text">expenses</h3>
+          <p class="tile-text">$420.54</p>
         </div>
         <div class="tile_3">
-          <h3>credit score</h3>
-          <p>673</p>
+          <h3 class="tile-text">credit score</h3>
+          <p class="tile-text">673</p>
         </div>
-      </div>
-    </section>
+      </section>
     <!-- END income expenses credit score tiles here-->
     <!--Accounts List begins here-->
     <section class="accounts-list">
@@ -43,17 +41,17 @@
           <div class="accounts-item-1">
             <img src="assets/checking.svg" alt="checking-icon">
             <p>Wells Fargo</p>
-            <p>Checking</p>
+            <p class="checking">Checking</p>
           </div>
           <div class="accounts-item-2">
             <img src="assets/savings.svg" alt="piggy-bank-icon">
             <p>Wells Fargo</p>
-            <p>Savings</p>
+            <p class="savings">Savings</p>
           </div>
           <div class="accounts-item-3">
             <img src="assets/credit-card.svg" alt="credit-card-icon">
             <p>Amazon Credit</p>
-            <p>Credit Card</p>
+            <p class="credit-card">Credit Card</p>
           </div>
           <div class="accounts-item-4">
             <img src="assets/credit-card.svg" alt="credit-card-icon">
@@ -61,38 +59,6 @@
             <p>Credit Card</p>
           </div>
   </section>
-    <!--<div class="accounts-table">
-      <table class="accounts-table-1">
-        <caption>Accounts</caption>
-        <tr>
-          <th class="icon-column">TEST</th>
-          <th>Wells Fargo</th>
-          <th>Checking</th>
-        </tr>
-      </table>
-      <table class="accounts-table-2">
-        <tr>
-          <th class="icon-column">TEST</th>
-          <th>Wells Fargo</th>
-          <th>Savings</th>
-        </tr>
-      </table>
-      <table class="accounts-table-2">
-        <tr>
-          <th class="icon-column">TEST</th>
-          <th>Amazon Credit</th>
-          <th>Credit Card</th>
-        </tr>
-      <table class="accounts-table-2">
-        <tr>
-          <th class="icon-column">TEST</th>
-          <th>Southwest Credit</th>
-          <th>Credit Card</th>
-        </tr>
-    </table>
-  </div>-->
-    <!--Accounts Table ends here-->
-    <!--Data Table Beigns Here!-->
     <section class="table_1">
       <table>
         <caption>Recent Transactions</caption>
@@ -162,4 +128,5 @@
     </section>
     <!--Data Table ENDS Here!-->
   </body>
+  <script type="text/javascript" src="main.js"></script>
 </html>
