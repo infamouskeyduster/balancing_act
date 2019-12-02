@@ -35,39 +35,52 @@ img,
   margin-top: 10%;
 }
 .dashboard_logo {
-margin-left: 25%;
 margin-top: 200%;
 }
-.dashboard_logo:hover {
+/* .dashboard_logo:hover {
   transition: .2s;
   border-left: 3px solid #1CA3BA;
   padding-left: 16%;
   padding-top: 6%;
   padding-bottom: 6%;
-}
+} */
 
 .transactions_logo {
-  margin-left: 25%;
   margin-top: 0%;
 }
-.transactions_logo:hover {
+/* .transactions_logo:hover {
   transition: .2s;
   border-left: 3px solid #1CA3BA;
   padding-left: 16%;
   padding-top: 6%;
   padding-bottom: 6%;
-}
+} */
 
 .profile_logo {
-  margin-left: 25%;
   margin-top: 0%;
 }
-.profile_logo:hover {
-  transition: .2s;
-  border-left: 3px solid #1CA3BA;
-  padding-left: 16%;
-  padding-top: 6%;
-  padding-bottom: 6%;
+  /* .profile_logo:hover {
+    transition: .2s;
+    border-left: 3px solid #1CA3BA;
+    padding-left: 16%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  } */
+.icon-button-styling{
+  background-color: none;
+  border: none;
+}
+.icon-active{
+/* ACTIVE STATE */
+  border-left: 4px solid #1CA3BA;
+  padding-left: 20%;
+  margin-left: 0%;
+}
+.icon-inactive{
+/* RESTING STATE */
+  border-left: 4px solid #FFFFFF;
+  padding-left: 20%;
+  margin-left: 0%;
 }
 /*END NAV BAR STYLING*/
 h1 {

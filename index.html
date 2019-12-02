@@ -7,9 +7,12 @@
   <body>
     <nav>
       <img src="assets/elephant.svg" class="elephant_logo">
-      <img src="assets/dashboard.svg" class="dashboard_logo">
-      <img src="assets/transactions.svg" class="transactions_logo">
-      <img src="assets/profile.svg" class="profile_logo">
+      <!-- <button onclick=hideInactiveState() class="icon-button-styling"> -->
+        <img src="assets/dashboard.svg" class="dashboard_logo icon-active">
+      <!-- </button> -->
+      <!-- <button type="button" src="assets/dashboard.svg" class="button-inactive button-active"></button> -->
+      <img src="assets/transactions.svg" class="transactions_logo icon-active icon-inactive">
+      <img src="assets/profile.svg" class="profile_logo icon-active icon-inactive">
     </nav>
     <h1>Balancing Act</h1>
     <!--welcome banner-->
@@ -128,5 +131,6 @@
     </section>
     <!--Data Table ENDS Here!-->
   </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </html>
